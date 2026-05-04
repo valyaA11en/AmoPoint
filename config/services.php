@@ -34,5 +34,8 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'geo_ip' => [
+        'url' => env('GEO_IP_API_URL', 'https://ipapi.co'),
+    ],
 
 ];
